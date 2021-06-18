@@ -1,0 +1,4 @@
+>>> Warning 208 "juego.c" Line 34(1,5): Function not void and does not return a value  MAIN
+      Memory usage:   ROM=17%      RAM=69% - 74%
+      0 Errors,  1 Warnings.
+Build Successful.

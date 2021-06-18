@@ -1,0 +1,229 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     _i2caddr
+005     _vccstate
+006     x_pos
+007     y_pos
+008     text_size
+009.0   wrap
+009.1   over
+00A-409 ssd1306_buffer
+40A-413 buffer
+414-41D buffer2
+41E     valorPot1
+41F     valorPot2
+420     dire
+421     posbx
+422     posby
+423-424 @sprintf_string
+425-42E MAIN.@STRPARAM
+42F     @PSTRINGCN_923.P1
+42F     SSD1306_Begin.vccstate
+42F-430 SSD1306_ClearDisplay.i
+42F     monvimientoCircle.dir
+42F     @PRINTF_U_923.P1
+42F     cambioPot.id
+42F     MAIN.@SCRATCH1
+430     monvimientoCircle.x
+430     SSD1306_Begin.i2caddr
+430     cambioPot.columna
+430     @PRINTF_U_923.P1
+430     MAIN.@SCRATCH2
+430     @PSTRINGCN_923.@SCRATCH1
+431     SSD1306_DrawText.x
+431     monvimientoCircle.y
+431     cambioPot.valor
+431     SSD1306_ClearDisplay.@SCRATCH1
+431     MAIN.@SCRATCH3
+431     @PSTRINGCN_923.@SCRATCH2
+432     @DIV88.P1
+432-433 SSD1306_Display.i
+432     validarChoqueCorrecrto.pot
+432     @SPRINTF.P1
+432-433 SSD1306_FillCircle.x0
+432     SSD1306_DrawText.y
+432     @delay_ms1.P1
+432     posLinea.x
+432     SSD1306_ClearDisplay.@SCRATCH2
+432     MAIN.@SCRATCH4
+433     validarChoqueCorrecrto.x
+433-434 SSD1306_DrawText._text
+433     posLinea.y
+433     @DIV88.P1
+434     validarChoqueCorrecrto.i
+434-435 SSD1306_FillCircle.y0
+434     SSD1306_Display.x
+434     posLinea.@SCRATCH1
+434     @DIV88.@SCRATCH1
+435     ssd1306_command.c
+435     SSD1306_DrawText.size
+435     SSD1306_Display.@SCRATCH1
+436     SSD1306_TextSize.t_size
+436-437 SSD1306_FillCircle.r
+436     ssd1306_command.control
+436     SSD1306_GotoXY.x
+436     SSD1306_DrawText.@SCRATCH1
+437     SSD1306_GotoXY.y
+437     SSD1306_Print.c
+437     @I2C_WRITEU_1.P1
+438.0   SSD1306_Print._color
+438     SSD1306_FillCircle.color
+439     SSD1306_Print.i
+439-43A SSD1306_FillCircleHelper.x0
+439     SSD1306_FillCircle.@SCRATCH1
+43A     SSD1306_Print.j
+43A     SSD1306_FillCircle.@SCRATCH2
+43B-43C SSD1306_FillCircleHelper.y0
+43B     SSD1306_Print.line
+43B     SSD1306_FillCircle.@SCRATCH3
+43C     SSD1306_FillCircle.@SCRATCH4
+43C     SSD1306_Print.@SCRATCH1
+43D-43E SSD1306_FillCircleHelper.r
+43D     SSD1306_Print.@SCRATCH2
+43E     SSD1306_Print.@SCRATCH3
+43F     SSD1306_FillRect.x
+43F     SSD1306_FillCircleHelper.cornername
+440     SSD1306_FillRect.y
+440-441 SSD1306_FillCircleHelper.delta
+441     SSD1306_FillRect.w
+442     SSD1306_FillCircleHelper.color
+442     SSD1306_FillRect.h
+443-444 SSD1306_FillCircleHelper.f
+443     SSD1306_FillRect.color
+444-445 SSD1306_FillRect.i
+445-446 SSD1306_FillCircleHelper.ddF_x
+447-448 SSD1306_FillCircleHelper.ddF_y
+449-44A SSD1306_FillCircleHelper.x
+44B-44C SSD1306_FillCircleHelper.y
+44D     SSD1306_FillCircleHelper.@SCRATCH1
+44E     SSD1306_FillCircleHelper.@SCRATCH2
+44F     SSD1306_FillCircleHelper.@SCRATCH3
+450     SSD1306_FillCircleHelper.@SCRATCH4
+451-452 @MULS1616.P1
+451     SSD1306_FillCircleHelper.@SCRATCH5
+452     SSD1306_FillCircleHelper.@SCRATCH6
+453-454 @MULS1616.P1
+453     SSD1306_DrawFastVLine.x
+454     SSD1306_DrawFastVLine.y
+455     SSD1306_DrawFastVLine.h
+455     @MULS1616.@SCRATCH1
+456     SSD1306_DrawFastVLine.color
+456     @MULS1616.@SCRATCH2
+457     SSD1306_DrawFastVLine.@SCRATCH1
+458-459 SSD1306_DrawLine.x0
+45A-45B SSD1306_DrawLine.y0
+45C-45D SSD1306_DrawLine.x1
+45E-45F SSD1306_DrawLine.y1
+460     SSD1306_DrawLine.color
+461.0   SSD1306_DrawLine.steep
+462     SSD1306_DrawLine.ystep
+463     SSD1306_DrawLine.dx
+464     SSD1306_DrawLine.dy
+465-466 SSD1306_DrawLine.err
+467-468 SSD1306_DrawLine.t
+469-46A SSD1306_DrawLine.t
+46B-46C SSD1306_DrawLine.t
+46D-46E SSD1306_DrawLine.t
+46F     SSD1306_DrawPixel.x
+46F     SSD1306_DrawLine.@SCRATCH1
+470     SSD1306_DrawPixel.y
+470     SSD1306_DrawLine.@SCRATCH2
+471     SSD1306_DrawPixel.color
+471     SSD1306_DrawLine.@SCRATCH3
+472     SSD1306_DrawPixel.@SCRATCH1
+472     SSD1306_DrawLine.@SCRATCH4
+473     SSD1306_DrawPixel.@SCRATCH2
+474     SSD1306_DrawPixel.@SCRATCH3
+475     SSD1306_DrawPixel.@SCRATCH4
+476     SSD1306_DrawPixel.@SCRATCH5
+F83     PSP_DATA
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  Font.call
+000014  Font.data
+000114  Font2.call
+000124  Font2.data
+000200  @const919.call
+00021A  @const921.call
+000228  @const930.call
+000232  @const931.call
+00023A  @delay_ms1
+000262  @I2C_WRITEU_1
+00027E  ssd1306_command
+0002A4  SSD1306_Begin
+000402  SSD1306_ClearDisplay
+000428  SSD1306_Display
+0004CC  SSD1306_DrawPixel
+0005BC  SSD1306_DrawLine
+0007B2  posLinea
+0007DA  @DIV88
+000806  cambioPot
+000854  @MULS1616
+0008A8  SSD1306_DrawFastVLine
+0008D2  SSD1306_FillCircleHelper
+000ADA  SSD1306_FillCircle
+000B4C  validarChoqueCorrecrto
+000B7C  monvimientoCircle
+000D3A  @goto11267
+000D5C  SSD1306_GotoXY
+000D7A  SSD1306_TextSize
+000D8E  SSD1306_FillRect
+000DCC  SSD1306_Print
+000F82  SSD1306_DrawText
+000FCC  @SPRINTF
+000FEC  @PSTRINGCN_923
+001014  @PRINTF_U_923
+001094  @cinit1
+001094  MAIN
+0010C8  @cinit2
+
+Project Directory:
+    C:\Users\USUARIO\Desktop\Programacion\pic\18f452\juego\juego\
+
+Project Files:
+    juego.c                                                 [17-jun.-21 22:15  CRC=A097CFF5]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F452.h [12-nov.-13 14:35  CRC=1418FEBC]
+    SSD1306_OLED.c                                          [01-ago.-20 19:08  CRC=8BD65620]
+    ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdint.h [30-dic.-08 09:01  CRC=9F7F640F]
+
+Source signature=7F85ECEF
+
+Units:
+    juego (main)
+
+Compiler Settings:
+    Processor:      PIC18F452
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   juego.xsym
+    Errors:      juego.err
+    Ext Symbols: juego.esym
+    INHX32:      juego.hex
+    Symbols:     juego.sym
+    List:        juego.lst
+    Debug/COFF:  juego.cof
+    Project:     juego.ccspjt
+    Call Tree:   juego.tre
+    Statistics:  juego.STA

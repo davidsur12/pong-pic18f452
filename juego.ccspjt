@@ -1,0 +1,16 @@
+[PROJECT]
+Target=juego.hex
+Processor_Text=PIC18F452
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=juego.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[juego.c]
+Type=4
+[mru-list]
+1=juego.c
+[Units]
+Count=1
+1=juego (main)

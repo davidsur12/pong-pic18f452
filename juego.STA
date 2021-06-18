@@ -1,0 +1,78 @@
+
+ROM used:   5446/32768 (17%)
+            5446/32768 (17%) including unused fragments
+
+            2.7 Average locations per line
+            10.5 Average locations per statement
+
+RAM used:   1065/1536 (69%) at main() level
+            1143/1536 (74%) worst case
+
+Stack used: 6 worst case (6 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  171    99  19  juego.c
+  716     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F452.h
+  938   420  81  SSD1306_OLED.c
+  163     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdint.h
+----- -----
+ 1988   519 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0    1             @delay_ms1
+0     28   0    1             @I2C_WRITEU_1
+0    272   2    0             @const809
+0    236   2    0             @const812
+0     38   0    2   163  2.3  ssd1306_command
+0    350   3    2  1342  4.9  SSD1306_Begin
+0    240   2    8   408  8.9  SSD1306_DrawPixel
+0    164   2    1   635  6.7  SSD1306_Display
+0     38   0    2   124  4.3  SSD1306_ClearDisplay
+0    502   5   19  1524  7.9  SSD1306_DrawLine
+0     42   0    5   146  3.1  SSD1306_DrawFastVLine
+0     62   1    5   219  4.1  SSD1306_FillRect
+0     84   1    6             @MULS1616
+0    114   1   11   229  3.7  SSD1306_FillCircle
+0    520   5   26  1191  7.8  SSD1306_FillCircleHelper
+0     74   1    6   185  4.0  SSD1306_DrawText
+0     30   0    2   127  3.9  SSD1306_GotoXY
+0     20   0    1    68  2.4  SSD1306_TextSize
+0    438   4    8  2269 11.8  SSD1306_Print
+0     40   0    3    76  2.3  posLinea
+0     78   1    2   169  3.3  cambioPot
+0     44   0    3             @DIV88
+0   1202  11    4  1036  3.4  MAIN
+0     26   0    0             @const919
+0     14   0    0             @const921
+0     32   0    1             @SPRINTF
+0     40   0    3             @PSTRINGCN_923
+0    128   1    2             @PRINTF_U_923
+0     10   0    0             @const930
+0      8   0    0             @const931
+0     48   0    2   218  6.5  validarChoqueCorrecrto
+0    446   4    3  1869  8.3  monvimientoCircle
+0     34   0    0             @goto11267
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               19
+    Statements              519
+    Comments                263
+    Volume (V)              19005
+    Difficulty (D)          99.8
+    Effort to implement (E) 1896628
+    Time to implement (T)   29 hours, 16 minutes
+    Est Delivered Bugs (B)  5
+    Cyclomatic Complexity   52
+    Maintainability (MI)    56
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  5442  27322  
+
+
+
